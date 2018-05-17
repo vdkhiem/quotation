@@ -8,8 +8,9 @@ Fix bug where click on Signage/Tint quote button when Reference No <= 0
 
 "SELECT DISTINCT T1.[Quote Number], T1.[Customer/Site], T1.[Enquiry Date], EnteredPriceDetails FROM [TBL Enquiry] T1 INNER JOIN tblSinageEnquiry T2 ON T1.[Quote Number] = T2.QuoteNumber "
 
+2018-05-17: Change requests
 Address, no comma. (Done)
-Extra cost, remove scroll bar
-Quantity and Discount columns are same width. Shorten the caption
-Items show 1 colum, make it show full name
-Sale Amount with GST, Calculation remove 35%
+Extra cost, remove scroll bar (Done)
+Quantity and Discount columns are same width. Shorten the caption (Done)
+Items show 1 colum, make it show full name and longer (Done)
+Sale Amount with GST, Calculation remove 35% (Done)
